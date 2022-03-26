@@ -4,6 +4,7 @@
   "description": "basic application",
   "main": "index.js",
   "scripts": {
+    "start" : "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/p63458/NodeJSApplication1/issues"
   },
-  "homepage": "https://github.com/p63458/NodeJSApplication1#readme"
+  "homepage": "https://github.com/p63458/NodeJSApplication1#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
